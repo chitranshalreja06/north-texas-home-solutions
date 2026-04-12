@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sell My House Fast Dallas TX | Cash Home Buyers DFW | [COMPANY NAME]</title>
+  <meta name="description" content="Sell your house fast for cash anywhere in DFW — Dallas, Fort Worth, Garland, Mesquite, Arlington, Irving, Plano, McKinney and 50+ cities. Fair cash offer in 24 hours. No repairs. No fees. No agents. Close in 7 days. Any situation — foreclosure, divorce, inherited, tax issues." />
+  <meta name="keywords" content="sell my house fast Dallas TX, we buy houses DFW, cash home buyers Dallas, sell house fast Fort Worth, we buy houses Garland TX, cash buyers Mesquite TX, sell house Irving TX, we buy houses Arlington, sell house Grand Prairie, cash buyers Plano TX, sell house McKinney TX, we buy houses Frisco TX, sell inherited house Dallas, stop foreclosure Dallas TX, sell house during divorce DFW, sell house as-is Dallas, cash offer Dallas TX, we buy houses Carrollton TX, cash buyers Lewisville TX, sell house Denton TX, we buy houses Rockwall TX" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+  <link rel="canonical" href="https://www.yourwebsite.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.yourwebsite.com/" />
+  <meta property="og:title" content="Sell My House Fast DFW | Cash Offer in 24 Hours | [COMPANY NAME]" />
+  <meta property="og:description" content="Facing foreclosure, divorce, inherited property, or just need to sell fast? Fair cash offer in 24 hours. No repairs. No fees. Close in 7 days. All of DFW." />
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"RealEstateAgent","name":"[COMPANY NAME]","description":"We help homeowners across the Dallas-Fort Worth metroplex sell their houses fast for cash. Any condition, any situation. Fair cash offer in 24 hours, close in as little as 7 days.","url":"https://www.yourwebsite.com","telephone":"[YOUR-PHONE-NUMBER]","address":{"@type":"PostalAddress","addressLocality":"Dallas","addressRegion":"TX","addressCountry":"US"},"areaServed":["Dallas","Garland","Irving","Richardson","Mesquite","Addison","Duncanville","Farmers Branch","Cedar Hill","Lancaster","DeSoto","Hutchins","Balch Springs","Cockrell Hill","Seagoville","Wilmer","Rowlett","Sunnyvale","Sachse","Fort Worth","Arlington","Grapevine","Southlake","Keller","Hurst","Euless","Bedford","North Richland Hills","Haltom City","Colleyville","Watauga","Richland Hills","White Settlement","Benbrook","Rockwall","Heath","Fate","Royse City","McLendon-Chisholm","Plano","McKinney","Frisco","Allen","Wylie","Murphy","Prosper","Celina","Anna","Melissa","Denton","Lewisville","Flower Mound","Carrollton","The Colony","Highland Village","Corinth","Little Elm","Aubrey","Pilot Point","Justin","Argyle"],"openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"08:00","closes":"20:00"}}
+  </script>
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How fast can you buy my house in Dallas TX?","acceptedAnswer":{"@type":"Answer","text":"We can close in as little as 7 days anywhere in DFW. Cash offer within 24 hours of seeing your property."}},{"@type":"Question","name":"Do I need repairs before selling?","acceptedAnswer":{"@type":"Answer","text":"No. We buy houses in any condition. No repairs, no cleaning, no staging needed."}},{"@type":"Question","name":"Are there fees or commissions?","acceptedAnswer":{"@type":"Answer","text":"Zero fees, zero commissions. We cover all closing costs. What we offer is what you receive."}},{"@type":"Question","name":"Can you help with foreclosure in Dallas?","acceptedAnswer":{"@type":"Answer","text":"Yes. We can often close fast enough to stop foreclosure and help you walk away with cash."}},{"@type":"Question","name":"Do you buy houses with tax liens?","acceptedAnswer":{"@type":"Answer","text":"Yes. Back taxes and liens can often be resolved directly from sale proceeds at closing."}},{"@type":"Question","name":"What DFW areas do you serve?","acceptedAnswer":{"@type":"Answer","text":"All of DFW — Dallas County, Tarrant County, Collin County, Denton County, and Rockwall County. Over 50 cities."}}]}
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --ink:#0d0c0a;--cream:#f6f1e9;--warm:#ede8de;--panel:#e4ddd2;
+      --gold:#c8922a;--gold-lt:#e8b84b;--gold-pale:#f5e8cc;--gold-dim:rgba(200,146,42,0.12);
+      --rust:#a63d2f;--sage:#3d5c3a;--sage-lt:#5a7f56;
+      --muted:#7a7068;--border:#d5cec4;--white:#fff;
+      --sh-sm:0 2px 8px rgba(13,12,10,.08);--sh-md:0 8px 32px rgba(13,12,10,.12);--sh-lg:0 20px 60px rgba(13,12,10,.16);
+      --fh:'Playfair Display',Georgia,serif;--fb:'DM Sans',system-ui,sans-serif;
+      --max:1200px;--r:8px;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:var(--fb);background:var(--cream);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}
+    img{display:block;max-width:100%}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+
+    @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+    @keyframes pdot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(.7);opacity:.5}}
+
+    /* NAV */
+    .nav{position:fixed;top:0;left:0;right:0;z-index:200;background:rgba(246,241,233,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
+    .nav-in{display:flex;align-items:center;justify-content:space-between;height:66px}
+    .logo{font-family:var(--fh);font-size:1.3rem;font-weight:900;letter-spacing:-.02em}
+    .logo span{color:var(--gold)}
+    .nav-r{display:flex;align-items:center;gap:18px}
+    .nav-lk{font-size:.87rem;font-weight:500;color:var(--muted);transition:color .2s}
+    .nav-lk:hover{color:var(--ink)}
+    .nav-btn{display:inline-flex;align-items:center;gap:7px;background:var(--ink);color:var(--cream);padding:10px 22px;border-radius:var(--r);font-size:.88rem;font-weight:600;transition:all .2s;white-space:nowrap}
+    .nav-btn:hover{background:var(--gold);color:var(--ink)}
+    .nav-btn svg{width:14px;height:14px;flex-shrink:0}
+
+    /* HERO */
+    .hero{padding-top:66px;min-height:100vh}
+    .hero-l{padding:72px 48px 72px 0;display:flex;flex-direction:column;justify-content:center;position:relative;min-width:0}
+    .hero-l::after{content:'';position:absolute;top:10%;right:0;bottom:10%;width:1px;background:var(--border)}
+
+    .badge{display:inline-flex;align-items:center;gap:8px;background:var(--gold-pale);border:1px solid var(--gold);color:var(--ink);padding:7px 16px;border-radius:100px;font-size:.75rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;width:fit-content;margin-bottom:28px;animation:fadeUp .5s ease both}
+    .badge-dot{width:7px;height:7px;border-radius:50%;background:var(--gold);animation:pdot 2s infinite;flex-shrink:0}
+
+    .h1{font-family:var(--fh);font-size:clamp(2.5rem,3.8vw,3.8rem);font-weight:900;line-height:1.08;letter-spacing:-.025em;margin-bottom:22px;animation:fadeUp .5s .08s ease both}
+    .h1 .ac{color:var(--gold);font-style:italic}
+    .h1 .ul{position:relative;display:inline-block}
+    .h1 .ul::after{content:'';position:absolute;left:0;right:0;bottom:3px;height:4px;background:var(--gold);opacity:.3;border-radius:2px}
+
+    .hero-desc{font-size:1.04rem;color:var(--muted);max-width:500px;margin-bottom:30px;line-height:1.75;animation:fadeUp .5s .16s ease both}
+
+    .pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:36px;animation:fadeUp .5s .22s ease both}
+    .pill{display:inline-flex;align-items:center;gap:6px;background:var(--white);border:1px solid var(--border);border-radius:100px;padding:6px 14px;font-size:.79rem;font-weight:500}
+    .pill svg{width:14px;height:14px;color:var(--sage);flex-shrink:0}
+
+    .hero-acts{display:flex;align-items:center;gap:18px;flex-wrap:wrap;animation:fadeUp .5s .28s ease both}
+    .btn-g{display:inline-flex;align-items:center;gap:9px;background:var(--gold);color:var(--ink);padding:15px 30px;border-radius:var(--r);font-size:.97rem;font-weight:700;border:none;cursor:pointer;transition:all .2s;box-shadow:0 4px 20px rgba(200,146,42,.35)}
+    .btn-g:hover{background:var(--gold-lt);transform:translateY(-2px);box-shadow:0 8px 28px rgba(200,146,42,.45)}
+    .btn-dk{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--cream);padding:15px 26px;border-radius:var(--r);font-size:.93rem;font-weight:600;border:none;cursor:pointer;transition:all .2s}
+    .btn-dk:hover{background:#2a2825;transform:translateY(-2px)}
+
+    .stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:48px;padding-top:36px;border-top:1px solid var(--border);animation:fadeUp .5s .36s ease both}
+    .stat-n{font-family:var(--fh);font-size:1.95rem;font-weight:900;color:var(--ink);letter-spacing:-.03em;line-height:1}
+    .stat-n span{color:var(--gold)}
+    .stat-l{font-size:.76rem;color:var(--muted);font-weight:500;margin-top:3px;letter-spacing:.02em}
+
+    /* HERO RIGHT */
+    .hero-r{background:var(--ink);padding:72px 0 72px 60px;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden;animation:fadeIn .6s .1s ease both}
+    .hero-r::before{content:'';position:absolute;top:-150px;right:-150px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(200,146,42,.12) 0%,transparent 65%);pointer-events:none}
+    .fw{position:relative;z-index:1;max-width:440px}
+    .fey{font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+    .fh2{font-family:var(--fh);font-size:clamp(1.6rem,2.2vw,2.2rem);font-weight:700;color:var(--cream);line-height:1.2;margin-bottom:8px}
+    .fsub{font-size:.87rem;color:rgba(246,241,233,.5);margin-bottom:26px;line-height:1.6}
+    .fg{margin-bottom:13px}
+    .fg label{display:block;font-size:.76rem;font-weight:600;color:rgba(246,241,233,.55);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px}
+    .fg input,.fg select{width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:12px 15px;border-radius:var(--r);font-family:var(--fb);font-size:.93rem;outline:none;transition:border-color .2s,background .2s;-webkit-appearance:none;appearance:none}
+    .fg input::placeholder{color:rgba(246,241,233,.3)}
+    .fg input:focus,.fg select:focus{border-color:var(--gold);background:rgba(246,241,233,.1)}
+    .fg select option{background:#1a1916;color:var(--cream)}
+    .frow{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+    .fsub-btn{width:100%;margin-top:4px;background:var(--gold);color:var(--ink);border:none;border-radius:var(--r);padding:15px;font-family:var(--fb);font-size:.97rem;font-weight:700;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:8px;box-shadow:0 4px 20px rgba(200,146,42,.3)}
+    .fsub-btn:hover{background:var(--gold-lt);transform:translateY(-1px);box-shadow:0 8px 28px rgba(200,146,42,.45)}
+    .fguard{display:flex;align-items:center;gap:7px;margin-top:12px;font-size:.76rem;color:rgba(246,241,233,.35)}
+    .fguard svg{width:13px;height:13px;color:var(--sage-lt);flex-shrink:0}
+
+    /* TRUST BAR */
+    .tbar{background:var(--gold);padding:14px 0;overflow:hidden}
+    .tbar-in{display:flex;align-items:center;justify-content:center;gap:36px;flex-wrap:wrap}
+    .ti{display:flex;align-items:center;gap:7px;font-size:.8rem;font-weight:700;color:var(--ink);letter-spacing:.02em;white-space:nowrap}
+    .ti svg{width:15px;height:15px;flex-shrink:0}
+
+    /* SECTIONS */
+    .sec{padding:96px 0}
+    .sec-alt{background:var(--warm)}
+    .sec-dk{background:var(--ink)}
+    .slbl{display:inline-block;font-size:.71rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:13px}
+    .sh2{font-family:var(--fh);font-size:clamp(1.95rem,3vw,2.75rem);font-weight:900;color:var(--ink);letter-spacing:-.02em;line-height:1.15;margin-bottom:14px}
+    .sh2.lt{color:var(--cream)}
+    .ssub{font-size:.97rem;color:var(--muted);max-width:530px;line-height:1.72;margin-bottom:52px}
+    .ssub.lt{color:rgba(246,241,233,.5)}
+
+    /* STEPS */
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+    .step{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:34px 30px;transition:box-shadow .2s,transform .2s}
+    .step:hover{box-shadow:var(--sh-md);transform:translateY(-4px)}
+    .snum{font-family:var(--fh);font-size:3.2rem;font-weight:900;color:var(--gold-pale);line-height:1;margin-bottom:18px;letter-spacing:-.04em}
+    .sico{width:42px;height:42px;background:var(--gold-pale);border-radius:10px;display:flex;align-items:center;justify-content:center;margin-bottom:18px}
+    .sico svg{width:21px;height:21px;color:var(--gold)}
+    .step h3{font-family:var(--fh);font-size:1.2rem;font-weight:700;color:var(--ink);margin-bottom:9px}
+    .step p{font-size:.88rem;color:var(--muted);line-height:1.7}
+
+    /* SITUATIONS */
+    .sits{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .sit{background:rgba(246,241,233,.05);border:1px solid rgba(246,241,233,.1);border-radius:12px;padding:30px 26px;transition:all .2s}
+    .sit:hover{background:rgba(200,146,42,.08);border-color:rgba(200,146,42,.3);transform:translateY(-3px)}
+    .sit-ico{font-size:1.9rem;margin-bottom:14px;display:block}
+    .sit h3{font-family:var(--fh);font-size:1.08rem;font-weight:700;color:var(--cream);margin-bottom:9px}
+    .sit p{font-size:.83rem;color:rgba(246,241,233,.48);line-height:1.65}
+
+    /* COMPARE */
+    .cmp{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .ccard{border-radius:12px;overflow:hidden;box-shadow:var(--sh-md)}
+    .chead{padding:22px 26px 18px;font-family:var(--fh);font-size:1.1rem;font-weight:700}
+    .ccard.us .chead{background:var(--ink);color:var(--gold)}
+    .ccard.them .chead{background:var(--panel);color:var(--muted)}
+    .cbody{background:var(--white)}
+    .crow{display:flex;align-items:center;gap:12px;padding:13px 26px;border-bottom:1px solid var(--warm);font-size:.86rem;font-weight:500}
+    .crow:last-child{border-bottom:none}
+    .crow svg{width:17px;height:17px;flex-shrink:0}
+    .cg{color:var(--sage)}
+    .cb{color:var(--rust)}
+
+    /* TESTIMONIALS */
+    .tms{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .tm{background:var(--white);border:1px solid var(--border);border-radius:12px;padding:30px 26px;position:relative}
+    .tm::before{content:'"';font-family:var(--fh);font-size:5rem;line-height:.8;color:var(--gold-pale);position:absolute;top:18px;left:22px}
+    .tm-txt{font-size:.88rem;color:var(--ink);line-height:1.7;margin-bottom:18px;padding-top:18px;position:relative;z-index:1}
+    .tm-au{display:flex;align-items:center;gap:10px}
+    .av{width:38px;height:38px;border-radius:50%;background:var(--gold-pale);display:flex;align-items:center;justify-content:center;font-family:var(--fh);font-weight:700;font-size:.95rem;color:var(--gold);flex-shrink:0}
+    .aname{font-weight:600;font-size:.86rem}
+    .acity{font-size:.76rem;color:var(--muted)}
+    .stars{color:var(--gold);font-size:.78rem;letter-spacing:1px;margin-bottom:3px}
+
+    /* CITIES */
+    .city-sec{padding:76px 0;background:var(--warm)}
+    .co-blk{margin-bottom:44px}
+    .co-blk:last-child{margin-bottom:0}
+    .co-nm{font-family:var(--fh);font-size:1.05rem;font-weight:700;color:var(--ink);display:flex;align-items:center;gap:9px;margin-bottom:14px;padding-bottom:11px;border-bottom:2px solid var(--gold)}
+    .co-nm span{font-family:var(--fb);font-size:.73rem;font-weight:500;color:var(--muted);background:var(--white);border:1px solid var(--border);border-radius:100px;padding:2px 10px}
+    .ctags{display:flex;flex-wrap:wrap;gap:7px}
+    .ctag{background:var(--white);border:1px solid var(--border);border-radius:100px;padding:6px 15px;font-size:.8rem;font-weight:500;color:var(--ink);transition:all .15s;cursor:pointer}
+    .ctag:hover{background:var(--ink);color:var(--cream);border-color:var(--ink)}
+
+    /* FAQ */
+    .faq-list{max-width:740px;margin:0 auto}
+    .faq-item{border-bottom:1px solid var(--border)}
+    .faq-q{width:100%;background:none;border:none;display:flex;justify-content:space-between;align-items:center;padding:20px 0;font-family:var(--fb);font-size:.97rem;font-weight:600;color:var(--ink);text-align:left;cursor:pointer;gap:14px;transition:color .2s}
+    .faq-q:hover{color:var(--gold)}
+    .faq-q svg{width:17px;height:17px;flex-shrink:0;color:var(--gold);transition:transform .2s}
+    .faq-q[aria-expanded="true"] svg{transform:rotate(45deg)}
+    .faq-a{display:none;padding:0 0 20px;font-size:.88rem;color:var(--muted);line-height:1.75}
+    .faq-a.open{display:block}
+
+    /* FOOTER CTA */
+    .fcta{background:var(--ink);padding:96px 0;text-align:center;position:relative;overflow:hidden}
+    .fcta::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(200,146,42,.1) 0%,transparent 65%);pointer-events:none}
+    .fcta-in{position:relative;z-index:1}
+    .fcta h2{font-family:var(--fh);font-size:clamp(2.1rem,4vw,3.4rem);font-weight:900;color:var(--cream);letter-spacing:-.025em;line-height:1.15;margin-bottom:18px}
+    .fcta h2 em{font-style:italic;color:var(--gold)}
+    .fcta p{font-size:.97rem;color:rgba(246,241,233,.5);max-width:460px;margin:0 auto 38px;line-height:1.7}
+    .fcta-btns{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+
+    /* FOOTER */
+    .footer{background:#07060505;padding:36px 0;border-top:1px solid rgba(246,241,233,.06);background:#080807}
+    .footer-in{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:18px}
+    .flogo{font-family:var(--fh);font-size:1.05rem;font-weight:900;color:rgba(246,241,233,.35)}
+    .flogo span{color:var(--gold)}
+    .fcopy{font-size:.76rem;color:rgba(246,241,233,.22)}
+    .flinks{display:flex;gap:18px}
+    .flinks a{font-size:.76rem;color:rgba(246,241,233,.28);transition:color .2s}
+    .flinks a:hover{color:var(--gold)}
+
+    /* MOBILE STICKY */
+    .mcta{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--ink);border-top:1px solid rgba(246,241,233,.1);padding:11px 18px;z-index:150;gap:9px}
+    .mcta a{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;padding:12px;border-radius:var(--r);font-size:.86rem;font-weight:700;transition:all .2s}
+    .mcta .mc{background:var(--gold);color:var(--ink)}
+    .mcta .mf{background:rgba(246,241,233,.08);color:var(--cream);border:1px solid rgba(246,241,233,.12)}
+
+    /* REVEAL */
+    .rv{opacity:0;transform:translateY(18px);transition:opacity .5s ease,transform .5s ease}
+    .rv.vis{opacity:1;transform:translateY(0)}
+
+    /* RESPONSIVE */
+    @media(max-width:1024px){.hero{grid-template-columns:1fr;min-height:auto}.hero-l{padding:60px 0 36px}.hero-l::after{display:none}.hero-r{padding:52px 0 72px}
+      .fw{max-width:100%}
+      .steps{grid-template-columns:1fr;gap:18px}
+      .sits{grid-template-columns:repeat(2,1fr)}
+      .cmp{grid-template-columns:1fr}
+      .tms{grid-template-columns:1fr}
+    }
+    @media(max-width:768px){
+      .nav-lk{display:none}
+      .sits{grid-template-columns:1fr}
+      .h1{font-size:2.35rem}
+      .stats{gap:18px}
+      .sec{padding:64px 0}
+      .frow{grid-template-columns:1fr}
+    }
+    @media(max-width:480px){
+      .wrap{padding:0 18px}
+      .hero-l{padding:44px 0 28px}
+      .hero-r{padding:36px 0 56px}
+      .tbar-in{gap:18px}
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="wrap">
+    <div class="nav-in">
+      <a href="/" class="logo" aria-label="[Company Name] Home">[Company<span>Name</span>]</a>
+      <div class="nav-r">
+        <a href="#how-it-works" class="nav-lk">How It Works</a>
+        <a href="#situations" class="nav-lk">Situations</a>
+        <a href="#areas" class="nav-lk">Areas</a>
+        <a href="/blog/" class="nav-lk">Blog</a>
+        <a href="#faq" class="nav-lk">FAQ</a>
+        <a href="tel:[YOUR-PHONE-NUMBER]" class="nav-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+          [YOUR-PHONE-NUMBER]
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<main>
+<section class="hero" aria-label="Sell your house fast in DFW">
+  <div class="wrap" style="display:grid;grid-template-columns:55% 45%;min-height:calc(100vh - 66px)">
+
+    <!-- LEFT -->
+    <div class="hero-l">
+      <div class="badge"><span class="badge-dot"></span>Serving All of DFW — 5 Counties, 50+ Cities</div>
+
+      <h1 class="h1">
+        Need to <em class="ac">Sell Your<br>House Fast</em> in<br>
+        <span class="ul">Dallas–Fort Worth?</span>
+      </h1>
+
+      <p class="hero-desc">
+        We help DFW homeowners who are stuck in a tough spot find a real way out —
+        a fair cash offer within 24 hours, no repairs needed, no agent fees,
+        and a closing timeline that works for <em>you</em>.
+      </p>
+
+      <div class="pills">
+        <span class="pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg>Cash offer in 24 hours</span>
+        <span class="pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg>Close in 7 days</span>
+        <span class="pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg>Zero fees or commissions</span>
+        <span class="pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg>Any condition — as-is</span>
+        <span class="pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg>We cover closing costs</span>
+      </div>
+
+      <div class="hero-acts">
+        <a href="#get-offer" class="btn-g">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" style="width:17px;height:17px"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>
+          Get My Free Cash Offer
+        </a>
+        <a href="tel:[YOUR-PHONE-NUMBER]" style="font-size:.9rem;color:var(--muted);text-decoration:underline;text-underline-offset:3px">or call [YOUR-PHONE-NUMBER]</a>
+      </div>
+
+      <div class="stats">
+        <div><div class="stat-n">24<span>hr</span></div><div class="stat-l">Cash offer turnaround</div></div>
+        <div><div class="stat-n">7<span>+</span></div><div class="stat-l">Days to closing</div></div>
+        <div><div class="stat-n">$0</div><div class="stat-l">Fees or commissions</div></div>
+        <div><div class="stat-n">50<span>+</span></div><div class="stat-l">DFW cities served</div></div>
+      </div>
+    </div>
+
+    <!-- RIGHT — FORM -->
+    <div class="hero-r" id="get-offer">
+        <div class="fw">
+          <p class="fey">Free — No Obligation Whatsoever</p>
+          <h2 class="fh2">Get Your Cash<br>Offer Today</h2>
+          <p class="fsub">Fill out the form and we'll be in touch within hours — usually the same day.</p>
+
+          <form id="lead-form" onsubmit="handleSubmit(event)" novalidate>
+            <div class="frow">
+              <div class="fg"><label for="fn">First Name</label><input type="text" id="fn" name="fname" placeholder="John" autocomplete="given-name" required /></div>
+              <div class="fg"><label for="ln">Last Name</label><input type="text" id="ln" name="lname" placeholder="Smith" autocomplete="family-name" required /></div>
+            </div>
+            <div class="fg"><label for="ph">Phone Number</label><input type="tel" id="ph" name="phone" placeholder="(214) 555-0000" autocomplete="tel" required /></div>
+            <div class="fg"><label for="addr">Property Address</label><input type="text" id="addr" name="address" placeholder="123 Main St, Dallas TX 75201" autocomplete="street-address" required /></div>
+            <div class="fg">
+              <label for="sit">What's Your Situation?</label>
+              <select id="sit" name="situation" required>
+                <option value="" disabled selected>Select your situation</option>
+                <option value="foreclosure">Facing Foreclosure</option>
+                <option value="tax">Behind on Property Taxes</option>
+                <option value="inherited">Inherited Property / Probate</option>
+                <option value="divorce">Going Through Divorce</option>
+                <option value="repairs">Too Many Repairs Needed</option>
+                <option value="landlord">Tired Landlord / Rental Property</option>
+                <option value="moving">Relocating / Need to Move Fast</option>
+                <option value="vacant">Vacant or Abandoned Property</option>
+                <option value="other">Other Situation</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label for="tl">How Soon Do You Need to Sell?</label>
+              <select id="tl" name="timeline">
+                <option value="" disabled selected>Select timeline</option>
+                <option value="asap">As soon as possible</option>
+                <option value="30">Within 30 days</option>
+                <option value="60">Within 60 days</option>
+                <option value="flexible">I'm flexible</option>
+              </select>
+            </div>
+            <button type="submit" class="fsub-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" style="width:17px;height:17px"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>
+              Get My Free Cash Offer →
+            </button>
+          </form>
+
+          <div id="form-success" style="display:none;text-align:center;padding:36px 16px">
+            <div style="font-size:2.8rem;margin-bottom:14px">✅</div>
+            <h3 style="font-family:var(--fh);color:var(--cream);font-size:1.45rem;margin-bottom:9px">We Got Your Request!</h3>
+            <p style="color:rgba(246,241,233,.5);font-size:.88rem;line-height:1.7">Someone from our team will reach out within a few hours — usually the same day. Keep an eye on your phone.</p>
+          </div>
+
+          <div class="fguard">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/></svg>
+            Your information is private and never shared. No spam, ever.
+          </div>
+        </div>
+    </div>
+
+  </div>
+</section>
+
+      <div class="ti"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg>Close in As Little as 7 Days</div>
+      <div class="ti"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg>We Buy Houses As-Is</div>
+      <div class="ti"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg>We Cover All Closing Costs</div>
+      <div class="ti"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd"/></svg>Cash Offer in 24 Hours</div>
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section class="sec" id="how-it-works" aria-label="How the process works">
+  <div class="wrap">
+    <p class="slbl rv">The Process</p>
+    <h2 class="sh2 rv">Three Simple Steps to<br>Your Cash Offer</h2>
+    <p class="ssub rv">No open houses. No waiting on bank financing. No repairs. Just a straightforward path from where you are today to cash in your hand.</p>
+    <div class="steps">
+      <div class="step rv">
+        <div class="snum">01</div>
+        <div class="sico"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg></div>
+        <h3>Tell Us About Your Property</h3>
+        <p>Fill out the short form above or give us a call. Tell us your situation — there's no judgment here. The more we understand, the better we can help you find the right path forward.</p>
+      </div>
+      <div class="step rv">
+        <div class="snum">02</div>
+        <div class="sico"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"/></svg></div>
+        <h3>We Come See the Property</h3>
+        <p>We schedule a quick walkthrough at a time that works for you. No cleaning, no repairs, no staging. We look at it as-is and come prepared to make a fair offer on the spot.</p>
+      </div>
+      <div class="step rv">
+        <div class="snum">03</div>
+        <div class="sico"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"/></svg></div>
+        <h3>You Choose the Closing Date</h3>
+        <p>If our offer works for you, we move forward on your timeline — as fast as 7 days or whenever you need. We close through a licensed title company. You get cash. Done.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SITUATIONS -->
+<section class="sec sec-dk" id="situations" aria-label="Situations we help with">
+  <div class="wrap">
+    <p class="slbl rv">Every Situation Welcome</p>
+    <h2 class="sh2 lt rv">We Help When Things<br>Get Complicated</h2>
+    <p class="ssub lt rv">Life doesn't follow a script. Whatever is going on with your property — we've seen it before and we know how to help you find a way through it.</p>
+    <div class="sits">
+      <div class="sit rv"><span class="sit-ico">🏚️</span><h3>Facing Foreclosure</h3><p>If you're behind on payments and the bank has started the foreclosure process, a fast cash sale can stop it — and potentially let you walk away with money instead of losing everything.</p></div>
+      <div class="sit rv"><span class="sit-ico">📋</span><h3>Behind on Property Taxes</h3><p>Years of unpaid taxes can feel like a hole you can't climb out of. Back taxes can often be resolved directly from sale proceeds — you don't need to pay anything upfront.</p></div>
+      <div class="sit rv"><span class="sit-ico">⚖️</span><h3>Inherited Property or Probate</h3><p>Inheriting a house you didn't plan for — especially one in probate or needing work — is stressful. We work with estates and heirs regularly at whatever pace the process requires.</p></div>
+      <div class="sit rv"><span class="sit-ico">💔</span><h3>Going Through Divorce</h3><p>When you need to divide assets and move forward, a quick clean sale removes a major source of conflict and puts cash in both parties' hands without the delays of a listing.</p></div>
+      <div class="sit rv"><span class="sit-ico">🔨</span><h3>Property Needs Major Repairs</h3><p>Foundation issues, roof problems, fire damage, mold — we buy in any condition. You don't spend a dollar on repairs. We take the property exactly as it sits today.</p></div>
+      <div class="sit rv"><span class="sit-ico">🏠</span><h3>Tired Landlord</h3><p>Done dealing with difficult tenants and maintenance headaches? We buy rental properties — occupied or vacant — and let you step away from the stress permanently.</p></div>
+      <div class="sit rv"><span class="sit-ico">📦</span><h3>Relocating Quickly</h3><p>Job transfer, family situation, or just ready for a fresh start — when you need to move fast, a traditional sale is too slow. We can close before you have to leave.</p></div>
+      <div class="sit rv"><span class="sit-ico">🔒</span><h3>Vacant or Abandoned Property</h3><p>A vacant property drains money and attracts problems. Whether it's been sitting empty for months or years, we can take it off your hands quickly regardless of condition.</p></div>
+      <div class="sit rv"><span class="sit-ico">💡</span><h3>Something Else Entirely</h3><p>Every situation is different. If yours doesn't fit neatly into any of the above — reach out anyway. There are more options available than most people realize.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARE -->
+<section class="sec" aria-label="Selling options comparison">
+  <div class="wrap">
+    <p class="slbl rv">Why Choose Us</p>
+    <h2 class="sh2 rv">The Honest Comparison</h2>
+    <p class="ssub rv">Here's what selling to us actually looks like compared to listing with an agent — no spin, just the real differences that matter to you.</p>
+    <div class="cmp rv">
+      <div class="ccard us">
+        <div class="chead">Selling to [Company Name]</div>
+        <div class="cbody">
+          <div class="crow"><svg class="cg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>Cash offer within 24 hours</div>
+          <div class="crow"><svg class="cg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>Close in as few as 7 days</div>
+          <div class="crow"><svg class="cg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>Zero agent commissions (save 5–6%)</div>
+          <div class="crow"><svg class="cg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>We cover all closing costs</div>
+          <div class="crow"><svg class="cg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>No repairs or cleaning needed</div>
+          <div class="crow"><svg class="cg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>No open houses or strangers in your home</div>
+          <div class="crow"><svg class="cg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>Guaranteed sale — no financing fall-through</div>
+          <div class="crow"><svg class="cg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/></svg>You choose the closing date</div>
+        </div>
+      </div>
+      <div class="ccard them">
+        <div class="chead">Traditional Agent Listing</div>
+        <div class="cbody">
+          <div class="crow"><svg class="cb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd"/></svg>Can take 60–120+ days to close</div>
+          <div class="crow"><svg class="cb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd"/></svg>5–6% agent commission off the top</div>
+          <div class="crow"><svg class="cb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd"/></svg>Closing costs typically 2–3%</div>
+          <div class="crow"><svg class="cb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd"/></svg>Buyers may request repairs or credits</div>
+          <div class="crow"><svg class="cb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd"/></svg>Open houses and strangers in your home</div>
+          <div class="crow"><svg class="cb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd"/></svg>Sale can fall through due to financing</div>
+          <div class="crow"><svg class="cb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd"/></svg>Closing date set by buyer's lender</div>
+          <div class="crow"><svg class="cb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd"/></svg>Property must be listed and market-ready</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="sec sec-alt" aria-label="Customer testimonials">
+  <div class="wrap">
+    <p class="slbl rv">Real Stories</p>
+    <h2 class="sh2 rv">DFW Homeowners We've Helped</h2>
+    <p class="ssub rv">These are real situations from real people across the Metroplex who needed a way out and found one.</p>
+    <div class="tms">
+      <div class="tm rv">
+        <p class="tm-txt">I was three months behind on my mortgage and terrified about losing the house. They came out, made me a fair offer the same day, and we closed in 11 days. I walked away with enough to start over. Can't say enough good things.</p>
+        <div class="tm-au"><div class="av">M</div><div><div class="stars">★★★★★</div><div class="aname">Marcus T.</div><div class="acity">Garland, TX</div></div></div>
+      </div>
+      <div class="tm rv">
+        <p class="tm-txt">My mother passed and left me a house in Mesquite that needed a ton of work. I live out of state and had no idea what to do. They handled everything, explained every step, and were incredibly patient with the probate process.</p>
+        <div class="tm-au"><div class="av">D</div><div><div class="stars">★★★★★</div><div class="aname">Denise R.</div><div class="acity">Mesquite, TX</div></div></div>
+      </div>
+      <div class="tm rv">
+        <p class="tm-txt">Going through a divorce is hard enough without fighting over a house. Having someone who could give us a fair cash price and close fast made the whole thing so much less painful. Professional, understanding, and quick.</p>
+        <div class="tm-au"><div class="av">J</div><div><div class="stars">★★★★★</div><div class="aname">James & Linda W.</div><div class="acity">Irving, TX</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CITIES -->
+<section class="city-sec" id="areas" aria-label="Cities we serve in DFW">
+  <div class="wrap">
+    <p class="slbl rv">Our Service Area</p>
+    <h2 class="sh2 rv">We Buy Houses Across All of DFW</h2>
+    <p class="ssub rv" style="margin-bottom:40px">We serve the entire Dallas-Fort Worth Metroplex across five counties — over 50 cities total. If your city isn't listed, reach out anyway. We can almost certainly help.</p>
+
+    <div class="co-blk rv">
+      <div class="co-nm">Dallas County <span>19 Cities</span></div>
+      <div class="ctags"><a href="/cities/dallas.html" class="ctag">Dallas</a><a href="/cities/garland.html" class="ctag">Garland</a><a href="/cities/irving.html" class="ctag">Irving</a><a href="/cities/richardson.html" class="ctag">Richardson</a><a href="/cities/mesquite.html" class="ctag">Mesquite</a><a href="/cities/addison.html" class="ctag">Addison</a><a href="/cities/duncanville.html" class="ctag">Duncanville</a><a href="/cities/farmers-branch.html" class="ctag">Farmers Branch</a><a href="/cities/cedar-hill.html" class="ctag">Cedar Hill</a><a href="/cities/lancaster.html" class="ctag">Lancaster</a><a href="/cities/desoto.html" class="ctag">DeSoto</a><a href="/cities/hutchins.html" class="ctag">Hutchins</a><a href="/cities/balch-springs.html" class="ctag">Balch Springs</a><a href="/cities/cockrell-hill.html" class="ctag">Cockrell Hill</a><a href="/cities/seagoville.html" class="ctag">Seagoville</a><a href="/cities/wilmer.html" class="ctag">Wilmer</a><a href="/cities/rowlett.html" class="ctag">Rowlett</a><a href="/cities/sunnyvale.html" class="ctag">Sunnyvale</a><a href="/cities/sachse.html" class="ctag">Sachse</a></div>
+    </div>
+    <div class="co-blk rv">
+      <div class="co-nm">Tarrant County <span>15 Cities</span></div>
+      <div class="ctags"><a href="/cities/fort-worth.html" class="ctag">Fort Worth</a><a href="/cities/arlington.html" class="ctag">Arlington</a><a href="/cities/grapevine.html" class="ctag">Grapevine</a><a href="/cities/southlake.html" class="ctag">Southlake</a><a href="/cities/keller.html" class="ctag">Keller</a><a href="/cities/hurst.html" class="ctag">Hurst</a><a href="/cities/euless.html" class="ctag">Euless</a><a href="/cities/bedford.html" class="ctag">Bedford</a><a href="/cities/north-richland-hills.html" class="ctag">North Richland Hills</a><a href="/cities/haltom-city.html" class="ctag">Haltom City</a><a href="/cities/colleyville.html" class="ctag">Colleyville</a><a href="/cities/watauga.html" class="ctag">Watauga</a><a href="/cities/richland-hills.html" class="ctag">Richland Hills</a><a href="/cities/white-settlement.html" class="ctag">White Settlement</a><a href="/cities/benbrook.html" class="ctag">Benbrook</a></div>
+    </div>
+    <div class="co-blk rv">
+      <div class="co-nm">Collin County <span>11 Cities</span></div>
+      <div class="ctags"><a href="/cities/plano.html" class="ctag">Plano</a><a href="/cities/mckinney.html" class="ctag">McKinney</a><a href="/cities/frisco.html" class="ctag">Frisco</a><a href="/cities/allen.html" class="ctag">Allen</a><a href="/cities/richardson.html" class="ctag">Richardson</a><a href="/cities/wylie.html" class="ctag">Wylie</a><a href="/cities/murphy.html" class="ctag">Murphy</a><a href="/cities/prosper.html" class="ctag">Prosper</a><a href="/cities/celina.html" class="ctag">Celina</a><a href="/cities/anna.html" class="ctag">Anna</a><a href="/cities/melissa.html" class="ctag">Melissa</a></div>
+    </div>
+    <div class="co-blk rv">
+      <div class="co-nm">Denton County <span>12 Cities</span></div>
+      <div class="ctags"><a href="/cities/denton.html" class="ctag">Denton</a><a href="/cities/lewisville.html" class="ctag">Lewisville</a><a href="/cities/flower-mound.html" class="ctag">Flower Mound</a><a href="/cities/carrollton.html" class="ctag">Carrollton</a><a href="/cities/the-colony.html" class="ctag">The Colony</a><a href="/cities/highland-village.html" class="ctag">Highland Village</a><a href="/cities/corinth.html" class="ctag">Corinth</a><a href="/cities/little-elm.html" class="ctag">Little Elm</a><a href="/cities/aubrey.html" class="ctag">Aubrey</a><a href="/cities/pilot-point.html" class="ctag">Pilot Point</a><a href="/cities/justin.html" class="ctag">Justin</a><a href="/cities/argyle.html" class="ctag">Argyle</a></div>
+    </div>
+    <div class="co-blk rv">
+      <div class="co-nm">Rockwall County <span>5 Cities</span></div>
+      <div class="ctags"><a href="/cities/rockwall.html" class="ctag">Rockwall</a><a href="/cities/heath.html" class="ctag">Heath</a><a href="/cities/fate.html" class="ctag">Fate</a><a href="/cities/royse-city.html" class="ctag">Royse City</a><a href="/cities/mclendon-chisholm.html" class="ctag">McLendon-Chisholm</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" id="faq" aria-label="Frequently asked questions">
+  <div class="wrap">
+    <p class="slbl rv" style="text-align:center">Got Questions</p>
+    <h2 class="sh2 rv" style="text-align:center;margin-bottom:8px">We Have Straight Answers</h2>
+    <p class="ssub rv" style="text-align:center;margin:0 auto 48px">No runaround, no jargon. Here's what most people want to know before they reach out.</p>
+    <div class="faq-list rv">
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">How fast can you really buy my house in DFW?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" clip-rule="evenodd"/></svg></button><div class="faq-a">We can close in as little as 7 days anywhere in the DFW metroplex. In most cases we provide a cash offer within 24 hours of seeing your property. If you need more time — 30, 60, even 90 days — we work completely around your schedule.</div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">Do I need to clean out or repair the house first?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" clip-rule="evenodd"/></svg></button><div class="faq-a">Absolutely not. We buy houses completely as-is. Don't clean, don't repair, don't even take out the trash if you don't want to. Leave behind whatever you don't want to deal with — we handle everything after closing.</div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">Are there any fees, commissions, or hidden costs?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" clip-rule="evenodd"/></svg></button><div class="faq-a">Zero. No agent commissions, no transaction fees, no closing costs on your end — we cover all of that. The cash offer we make you is the exact amount you receive at closing. No deductions, no surprises.</div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">Can you help if I'm facing foreclosure in Dallas or Fort Worth?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" clip-rule="evenodd"/></svg></button><div class="faq-a">Yes. Foreclosure situations are something we navigate regularly. A fast cash sale can stop the process, preserve your credit from a seven-year hit, and potentially put money in your pocket rather than losing the home entirely. Reach out as soon as possible — timeline matters.</div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">My house has back taxes or liens — can you still buy it?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" clip-rule="evenodd"/></svg></button><div class="faq-a">Yes. Tax liens, back taxes, judgment liens, and code violations are things we deal with regularly. In many cases these can be resolved directly from the sale proceeds at closing — you don't need to come up with money upfront.</div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">How do you determine your cash offer?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" clip-rule="evenodd"/></svg></button><div class="faq-a">Our offer is based on the current market value of your property in its present condition — factoring in comparable sales in your neighborhood, location, and what repairs the home may need. We are fully transparent about how we arrive at our number and never pressure anyone to accept.</div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">Is this legitimate? How am I protected?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" clip-rule="evenodd"/></svg></button><div class="faq-a">Every transaction closes through a licensed Texas title company — the same way any conventional home sale works. You never hand over keys or sign documents directly to us without full title company protection. The title company verifies the transaction and handles all fund disbursement.</div></div>
+      <div class="faq-item"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">What if I owe more than the house is worth?<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a.75.75 0 01.75.75v10.638l3.96-4.158a.75.75 0 111.08 1.04l-5.25 5.5a.75.75 0 01-1.08 0l-5.25-5.5a.75.75 0 111.08-1.04l3.96 4.158V3.75A.75.75 0 0110 3z" clip-rule="evenodd"/></svg></button><div class="faq-a">This is an underwater or upside-down property, and it's a situation we can often still help with. In some cases a short sale may be an option. It's worth a conversation — even in difficult equity situations there may be a path forward that beats the alternatives.</div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="wrap">
+    <div class="footer-in">
+      <div class="flogo">[Company<span>Name</span>]</div>
+      <p class="fcopy">© 2025 [Company Name] · Serving Dallas-Fort Worth, TX · All rights reserved.</p>
+      <div class="flinks">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="#faq">FAQ</a>
+        <a href="#get-offer">Get Offer</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleFaq(btn){
+    const a=btn.nextElementSibling,open=btn.getAttribute('aria-expanded')==='true';
+    document.querySelectorAll('.faq-q').forEach(b=>{b.setAttribute('aria-expanded','false');b.nextElementSibling.classList.remove('open')});
+    if(!open){btn.setAttribute('aria-expanded','true');a.classList.add('open')}
+  }
+
+  function handleSubmit(e){
+    e.preventDefault();
+    const form=document.getElementById('lead-form'),success=document.getElementById('form-success');
+    let valid=true;
+    form.querySelectorAll('[required]').forEach(f=>{
+      if(!f.value.trim()){valid=false;f.style.borderColor='#a63d2f'}else{f.style.borderColor=''}
+    });
+    if(!valid)return;
+    form.style.display='none';
+    success.style.display='block';
+    // TODO: POST form data to your backend or CRM webhook
+    // fetch('/api/leads',{method:'POST',body:new FormData(form)})
+  }
+
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target)}})
+  },{threshold:.1,rootMargin:'0px 0px -36px 0px'});
+  document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
+
+  document.querySelectorAll('a[href^="#"]').forEach(a=>{
+    a.addEventListener('click',e=>{
+      const t=document.querySelector(a.getAttribute('href'));
+      if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}
+    })
+  });
+
+  const ph=document.getElementById('ph');
+  if(ph){ph.addEventListener('input',function(){
+    let v=this.value.replace(/\D/g,'');
+    if(v.length>=6)v='('+v.substring(0,3)+') '+v.substring(3,6)+'-'+v.substring(6,10);
+    else if(v.length>=3)v='('+v.substring(0,3)+') '+v.substring(3);
+    this.value=v;
+  })}
+</script>
+</body>
+</html>

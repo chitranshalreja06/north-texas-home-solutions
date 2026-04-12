@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -)",
+      "Bash(node -e ':*)",
+      "Bash(node replace.mjs)",
+      "Bash(node -e \"console.log\\('no mjs'\\)\")",
+      "Bash(node _replace.js)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
