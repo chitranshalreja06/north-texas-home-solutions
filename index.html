@@ -102,7 +102,7 @@ img{display:block;max-width:100%}
 .success-h{font-family:var(--fh);font-size:1.8rem;font-weight:700;color:var(--cream);margin-bottom:8px}
 .success-p{font-size:.85rem;color:rgba(247,243,236,.38);line-height:1.7;font-weight:300}
 /* TRUST BAR */
-.trust-bar{background:var(--warm);border-bottom:1px solid var(--border);padding:0}
+.trust-bar{background:var(--warm);border-bottom:1px solid var(--border);padding:0;overflow:hidden}
 .trust-inner{display:flex;align-items:center;justify-content:flex-start;gap:0;flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:0 20px;height:46px}
 .trust-item{display:flex;align-items:center;gap:7px;font-size:.75rem;font-weight:500;color:var(--muted);white-space:nowrap;flex-shrink:0;padding:0 18px}
 .trust-item svg{width:14px;height:14px;color:var(--gold);flex-shrink:0}.trust-inner::-webkit-scrollbar{display:none}
@@ -214,10 +214,11 @@ img{display:block;max-width:100%}
 }
 @media(max-width:768px){
   .wrap{padding:0 20px}
-  .nav-links,.nav-phone{display:none}
+  .nav-links,.nav-phone,.btn-nav{display:none}
   .ham{display:flex}
-  .btn-nav{padding:8px 16px;font-size:.78rem}
+  .logo{font-size:1.15rem}
   .hero-h1{font-size:2.8rem}
+  .hero-r{padding:40px 20px 60px}
   .hero-stats{flex-wrap:wrap;gap:20px;padding-top:24px}
   .hero-stat{border-right:none;padding-right:0;margin-right:0;min-width:calc(50% - 10px)}
   .sec{padding:72px 0}
@@ -228,10 +229,19 @@ img{display:block;max-width:100%}
   .final-cta{padding:80px 0}
   .footer-in{flex-direction:column;align-items:center;text-align:center}
   .footer-links{justify-content:center}
+  .cmp-row{padding:13px 0}
+  .faq-q{font-size:.88rem}
+  .final-btns{flex-direction:column;align-items:center}
 }
 @media(max-width:480px){
-  .hero-h1{font-size:2.4rem}
+  .hero-h1{font-size:2.2rem}
+  .hero-h1-sub{font-size:1.2rem}
+  .logo{font-size:1.05rem}
   .fg-2{grid-template-columns:1fr}
+  .hero-cta-row{flex-direction:column;align-items:flex-start;gap:12px}
+  .btn-gold{width:100%;justify-content:center}
+  .sec-h2{font-size:clamp(1.7rem,7vw,2.2rem)}
+  .tm-grid{grid-template-columns:1fr}
 }
   </style>
 </head>
