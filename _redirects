@@ -1,8 +1,57 @@
-# Old programmatic city pages -> current city pages (forced: old files may still exist in repo)
-/city/sell-house-fast-:slug.html /cities/:slug.html 301!
+# Old programmatic city pages -> current city pages (explicit: placeholder rule did not match)
+/city/sell-house-fast-allen.html /cities/allen.html 301!
+/city/sell-house-fast-anna.html /cities/anna.html 301!
+/city/sell-house-fast-argyle.html /cities/argyle.html 301!
+/city/sell-house-fast-arlington.html /cities/arlington.html 301!
+/city/sell-house-fast-aubrey.html /cities/aubrey.html 301!
+/city/sell-house-fast-balch-springs.html /cities/balch-springs.html 301!
+/city/sell-house-fast-bedford.html /cities/bedford.html 301!
+/city/sell-house-fast-benbrook.html /cities/benbrook.html 301!
+/city/sell-house-fast-carrollton.html /cities/carrollton.html 301!
+/city/sell-house-fast-cedar-hill.html /cities/cedar-hill.html 301!
+/city/sell-house-fast-celina.html /cities/celina.html 301!
+/city/sell-house-fast-colleyville.html /cities/colleyville.html 301!
+/city/sell-house-fast-corinth.html /cities/corinth.html 301!
+/city/sell-house-fast-dallas.html /cities/dallas.html 301!
+/city/sell-house-fast-denton.html /cities/denton.html 301!
+/city/sell-house-fast-desoto.html /cities/desoto.html 301!
+/city/sell-house-fast-duncanville.html /cities/duncanville.html 301!
+/city/sell-house-fast-euless.html /cities/euless.html 301!
+/city/sell-house-fast-farmers-branch.html /cities/farmers-branch.html 301!
+/city/sell-house-fast-fate.html /cities/fate.html 301!
+/city/sell-house-fast-flower-mound.html /cities/flower-mound.html 301!
+/city/sell-house-fast-fort-worth.html /cities/fort-worth.html 301!
+/city/sell-house-fast-frisco.html /cities/frisco.html 301!
+/city/sell-house-fast-garland.html /cities/garland.html 301!
+/city/sell-house-fast-grapevine.html /cities/grapevine.html 301!
+/city/sell-house-fast-haltom-city.html /cities/haltom-city.html 301!
+/city/sell-house-fast-heath.html /cities/heath.html 301!
+/city/sell-house-fast-highland-village.html /cities/highland-village.html 301!
+/city/sell-house-fast-hurst.html /cities/hurst.html 301!
+/city/sell-house-fast-irving.html /cities/irving.html 301!
+/city/sell-house-fast-keller.html /cities/keller.html 301!
+/city/sell-house-fast-lancaster.html /cities/lancaster.html 301!
+/city/sell-house-fast-lewisville.html /cities/lewisville.html 301!
+/city/sell-house-fast-little-elm.html /cities/little-elm.html 301!
+/city/sell-house-fast-mckinney.html /cities/mckinney.html 301!
+/city/sell-house-fast-melissa.html /cities/melissa.html 301!
+/city/sell-house-fast-mesquite.html /cities/mesquite.html 301!
+/city/sell-house-fast-murphy.html /cities/murphy.html 301!
+/city/sell-house-fast-north-richland-hills.html /cities/north-richland-hills.html 301!
+/city/sell-house-fast-plano.html /cities/plano.html 301!
+/city/sell-house-fast-prosper.html /cities/prosper.html 301!
+/city/sell-house-fast-richardson.html /cities/richardson.html 301!
+/city/sell-house-fast-rockwall.html /cities/rockwall.html 301!
+/city/sell-house-fast-rowlett.html /cities/rowlett.html 301!
+/city/sell-house-fast-royse-city.html /cities/royse-city.html 301!
+/city/sell-house-fast-sachse.html /cities/sachse.html 301!
+/city/sell-house-fast-seagoville.html /cities/seagoville.html 301!
+/city/sell-house-fast-the-colony.html /cities/the-colony.html 301!
+/city/sell-house-fast-white-settlement.html /cities/white-settlement.html 301!
+/city/sell-house-fast-wylie.html /cities/wylie.html 301!
 /city/* / 301!
 
-# Old situation pages -> current situation pages (forced: old files may still exist in repo)
+# Old situation pages -> current situation pages
 /situation/divorce.html /divorce/ 301!
 /situation/foreclosure.html /foreclosure/ 301!
 /situation/inherited-property.html /inherited-property/ 301!
