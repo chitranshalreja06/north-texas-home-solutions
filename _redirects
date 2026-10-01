@@ -1,12 +1,12 @@
-# Old programmatic city pages -> current city pages
-/city/sell-house-fast-:slug.html /cities/:slug.html 301
-/city/* / 301
+# Old programmatic city pages -> current city pages (forced: old files may still exist in repo)
+/city/sell-house-fast-:slug.html /cities/:slug.html 301!
+/city/* / 301!
 
-# Old situation pages -> current situation pages
-/situation/divorce.html /divorce/ 301
-/situation/foreclosure.html /foreclosure/ 301
-/situation/inherited-property.html /inherited-property/ 301
-/situation/tax-liens.html /tax-liens/ 301
-/situation/repairs.html / 301
-/situation/vacant-property.html / 301
-/situation/* / 301
+# Old situation pages -> current situation pages (forced: old files may still exist in repo)
+/situation/divorce.html /divorce/ 301!
+/situation/foreclosure.html /foreclosure/ 301!
+/situation/inherited-property.html /inherited-property/ 301!
+/situation/tax-liens.html /tax-liens/ 301!
+/situation/repairs.html / 301!
+/situation/vacant-property.html / 301!
+/situation/* / 301!
