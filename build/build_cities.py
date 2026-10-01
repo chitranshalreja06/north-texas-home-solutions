@@ -136,7 +136,7 @@ def form_html(city):
           <div class="fg"><label for="ln">Last Name</label><input type="text" id="ln" name="lname" placeholder="Smith" autocomplete="family-name" required/></div>
         </div>
         <div class="fg"><label for="ph">Phone Number</label><input type="tel" id="ph" name="phone" placeholder="(214) 555-0000" autocomplete="tel" required/></div>
-        <div class="fg"><label for="addr">Property Address</label><input type="text" id="addr" name="address" placeholder="123 Main St, {htmlmod.escape(city)} TX" required/></div>
+        <div class="fg"><label for="addr">Property Address</label><input type="text" id="addr" name="address" placeholder="123 Main St, {htmlmod.escape(city)} TX" autocomplete="street-address" required/></div>
         <div class="fg">
           <label for="sit">Your Situation</label>
           <select id="sit" name="situation" required>
@@ -182,6 +182,20 @@ document.addEventListener('DOMContentLoaded',function(){
   var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
   document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
 });
+var GOOGLE_PLACES_KEY="";
+(function(){
+  var addr=document.querySelector('input[name="address"]');
+  if(!addr||!GOOGLE_PLACES_KEY)return;
+  window.nthsInitPlaces=function(){
+    try{
+      var ac=new google.maps.places.Autocomplete(addr,{types:['address'],componentRestrictions:{country:'us'},fields:['formatted_address']});
+      ac.addListener('place_changed',function(){var p=ac.getPlace();if(p&&p.formatted_address)addr.value=p.formatted_address;});
+    }catch(e){}
+  };
+  var s=document.createElement('script');
+  s.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(GOOGLE_PLACES_KEY)+'&libraries=places&callback=nthsInitPlaces';
+  s.async=true;s.defer=true;document.head.appendChild(s);
+})();
 function toggleFaq(btn){
   var open=btn.getAttribute('aria-expanded')==='true';
   btn.setAttribute('aria-expanded',open?'false':'true');
@@ -342,7 +356,7 @@ def build_page(slug):
       </div>
       <div class="form-secure">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd"/></svg>
-        Private &amp; secure, your info is never shared or sold
+        Private &amp; secure. Your info is never shared or sold
       </div>
     </div>
   </div>

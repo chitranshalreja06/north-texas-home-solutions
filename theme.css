@@ -10,6 +10,7 @@
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:auto;background:var(--white)}
+html{overflow-x:clip}
 body{font-family:var(--fb);background:var(--white);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 img{display:block;max-width:100%}
@@ -71,7 +72,7 @@ img{display:block;max-width:100%}
 .form-sub{font-size:.82rem;color:var(--text2);line-height:1.6;margin-bottom:24px}
 .fg{margin-bottom:11px}
 .fg label{display:block;font-size:.65rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--text3);margin-bottom:5px}
-.fg input,.fg select{width:100%;background:var(--white);border:1px solid var(--border);color:var(--text);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:.88rem;outline:none;transition:border-color .2s;-webkit-appearance:none}
+.fg input,.fg select{width:100%;background:var(--white);border:1px solid var(--border);color:var(--text);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:16px;outline:none;transition:border-color .2s;-webkit-appearance:none}
 .fg input::placeholder{color:var(--text3)}
 .fg input:focus,.fg select:focus{border-color:var(--navy)}
 .fg-2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
