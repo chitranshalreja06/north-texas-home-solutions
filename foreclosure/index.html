@@ -162,18 +162,18 @@
         <input type="hidden" name="situation-page" value="foreclosure">
         <div style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden" aria-hidden="true"><label>Leave this field empty<input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></div>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px">
-          <input type="text" name="fname" placeholder="First Name" required style="padding:13px 15px;border:1px solid rgba(26,26,26,.15);border-radius:10px;font-size:.92rem;width:100%;box-sizing:border-box"/>
-          <input type="text" name="lname" placeholder="Last Name" required style="padding:13px 15px;border:1px solid rgba(26,26,26,.15);border-radius:10px;font-size:.92rem;width:100%;box-sizing:border-box"/>
+          <input type="text" name="fname" placeholder="First Name" required style="padding:13px 15px;border:1px solid rgba(26,26,26,.15);border-radius:10px;font-size:16px;width:100%;box-sizing:border-box"/>
+          <input type="text" name="lname" placeholder="Last Name" required style="padding:13px 15px;border:1px solid rgba(26,26,26,.15);border-radius:10px;font-size:16px;width:100%;box-sizing:border-box"/>
         </div>
-        <input type="tel" id="ph" name="phone" placeholder="Phone Number" required style="padding:13px 15px;border:1px solid rgba(26,26,26,.15);border-radius:10px;font-size:.92rem;width:100%;box-sizing:border-box;margin-bottom:12px"/>
-        <input type="text" name="address" placeholder="Property Address" required style="padding:13px 15px;border:1px solid rgba(26,26,26,.15);border-radius:10px;font-size:.92rem;width:100%;box-sizing:border-box;margin-bottom:16px"/>
+        <input type="tel" id="ph" name="phone" placeholder="Phone Number" required style="padding:13px 15px;border:1px solid rgba(26,26,26,.15);border-radius:10px;font-size:16px;width:100%;box-sizing:border-box;margin-bottom:12px"/>
+        <input type="text" name="address" placeholder="Property Address" autocomplete="street-address" required style="padding:13px 15px;border:1px solid rgba(26,26,26,.15);border-radius:10px;font-size:16px;width:100%;box-sizing:border-box;margin-bottom:16px"/>
         <button type="submit" style="width:100%;background:var(--gold);color:var(--ink);border:none;border-radius:10px;padding:15px;font-family:var(--fb);font-size:.97rem;font-weight:700;cursor:pointer">Get My Free Cash Offer &rarr;</button>
       </form>
       <div id="form-success" style="display:none;text-align:center;padding:24px 0">
         <p style="font-family:var(--fh);font-size:1.4rem;font-weight:900;color:var(--ink);margin-bottom:8px">We Got It.</p>
         <p style="color:var(--muted);font-size:.92rem">Someone from our team will reach out shortly. Keep your phone nearby.</p>
       </div>
-      <p style="font-size:.78rem;color:var(--muted);text-align:center;margin-top:16px">Private &amp; secure &mdash; your info is never shared or sold.</p>
+      <p style="font-size:.78rem;color:var(--muted);text-align:center;margin-top:16px">Private and secure. Your info is never shared or sold.</p>
     </div>
   </div>
 </section>
@@ -202,6 +202,23 @@ const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersec
 document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
 document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}})});
 const ph=document.getElementById('ph');if(ph){ph.addEventListener('input',function(){let v=this.value.replace(/\D/g,'');if(v.length>=6)v='('+v.substring(0,3)+') '+v.substring(3,6)+'-'+v.substring(6,10);else if(v.length>=3)v='('+v.substring(0,3)+') '+v.substring(3);this.value=v;})}
+</script>
+<script>
+// Google Places address autocomplete. Paste a Places API key below to activate.
+var GOOGLE_PLACES_KEY = "";
+(function(){
+  var addr=document.querySelector('input[name="address"]');
+  if(!addr||!GOOGLE_PLACES_KEY)return;
+  window.nthsInitPlaces=function(){
+    try{
+      var ac=new google.maps.places.Autocomplete(addr,{types:['address'],componentRestrictions:{country:'us'},fields:['formatted_address']});
+      ac.addListener('place_changed',function(){var p=ac.getPlace();if(p&&p.formatted_address)addr.value=p.formatted_address;});
+    }catch(e){}
+  };
+  var s=document.createElement('script');
+  s.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(GOOGLE_PLACES_KEY)+'&libraries=places&callback=nthsInitPlaces';
+  s.async=true;s.defer=true;document.head.appendChild(s);
+})();
 </script>
 </body>
 </html>

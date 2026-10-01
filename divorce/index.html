@@ -68,11 +68,11 @@
     <input type="hidden" name="form-name" value="lead-form">
     <div style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden" aria-hidden="true"><label>Leave this field empty<input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px">
-        <div><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">First Name</label><input type="text" name="fname" placeholder="John" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:.92rem;outline:none"></div>
-        <div><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">Last Name</label><input type="text" name="lname" placeholder="Smith" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:.92rem;outline:none"></div>
+        <div><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">First Name</label><input type="text" name="fname" placeholder="John" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:16px;outline:none"></div>
+        <div><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">Last Name</label><input type="text" name="lname" placeholder="Smith" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:16px;outline:none"></div>
       </div>
-      <div style="margin-bottom:12px"><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">Phone Number</label><input type="tel" id="ph" name="phone" placeholder="(214) 555-0000" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:.92rem;outline:none"></div>
-      <div style="margin-bottom:16px"><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">Property Address</label><input type="text" name="address" placeholder="123 Main St, Dallas TX" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:.92rem;outline:none"></div>
+      <div style="margin-bottom:12px"><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">Phone Number</label><input type="tel" id="ph" name="phone" placeholder="(214) 555-0000" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:16px;outline:none"></div>
+      <div style="margin-bottom:16px"><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">Property Address</label><input type="text" name="address" placeholder="123 Main St, Dallas TX" autocomplete="street-address" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:16px;outline:none"></div>
       <button type="submit" style="width:100%;background:var(--gold);color:var(--ink);border:none;border-radius:var(--r);padding:15px;font-family:var(--fb);font-size:.97rem;font-weight:700;cursor:pointer;transition:all .2s">Get My Free Cash Offer →</button>
     </form>
     <div id="form-success" style="display:none;text-align:center;padding:32px 0">
@@ -180,6 +180,23 @@ const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersec
 document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
 document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}})});
 const ph=document.getElementById('ph');if(ph){ph.addEventListener('input',function(){let v=this.value.replace(/\D/g,'');if(v.length>=6)v='('+v.substring(0,3)+') '+v.substring(3,6)+'-'+v.substring(6,10);else if(v.length>=3)v='('+v.substring(0,3)+') '+v.substring(3);this.value=v;})}
+</script>
+<script>
+// Google Places address autocomplete. Paste a Places API key below to activate.
+var GOOGLE_PLACES_KEY = "";
+(function(){
+  var addr=document.querySelector('input[name="address"]');
+  if(!addr||!GOOGLE_PLACES_KEY)return;
+  window.nthsInitPlaces=function(){
+    try{
+      var ac=new google.maps.places.Autocomplete(addr,{types:['address'],componentRestrictions:{country:'us'},fields:['formatted_address']});
+      ac.addListener('place_changed',function(){var p=ac.getPlace();if(p&&p.formatted_address)addr.value=p.formatted_address;});
+    }catch(e){}
+  };
+  var s=document.createElement('script');
+  s.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(GOOGLE_PLACES_KEY)+'&libraries=places&callback=nthsInitPlaces';
+  s.async=true;s.defer=true;document.head.appendChild(s);
+})();
 </script>
 </body>
 </html>
