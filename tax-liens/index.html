@@ -7,7 +7,7 @@
   <meta name="description" content="Sell your DFW house with back property taxes or tax liens. We buy houses with delinquent taxes throughout Dallas-Fort Worth. Tax liens resolved at closing. Cash offer in 24 hours."/>
   <meta name="keywords" content="sell house back taxes Dallas TX, property tax lien buyers DFW, sell house delinquent taxes Fort Worth, we buy houses tax liens Dallas, back property taxes home sale Texas, sell house tax lien Garland Mesquite"/>
   <meta name="robots" content="index, follow"/>
-  <link rel="canonical" href="https://www.northtexashomesolutions.com/tax-liens/"/>
+  <link rel="canonical" href="https://northtexashomesolutions.com/tax-liens/"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="../shared.css"/>
@@ -64,7 +64,9 @@
     <p style="font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:8px">Free — No Obligation</p>
     <h3 style="font-family:var(--fh);font-size:1.6rem;font-weight:700;color:var(--cream);margin-bottom:6px">Get Your Cash Offer</h3>
     <p style="font-size:.87rem;color:rgba(246,241,233,.5);margin-bottom:24px">We'll be in touch within hours — usually the same day.</p>
-    <form id="lead-form" onsubmit="handleSubmit(event)" novalidate>
+    <form id="lead-form" name="lead-form" data-netlify="true" netlify-honeypot="bot-field" onsubmit="submitLeadForm(event)" novalidate>
+    <input type="hidden" name="form-name" value="lead-form">
+    <div style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden" aria-hidden="true"><label>Leave this field empty<input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px">
         <div><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">First Name</label><input type="text" name="fname" placeholder="John" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:.92rem;outline:none"></div>
         <div><label style="display:block;font-size:.74rem;font-weight:600;color:rgba(246,241,233,.5);letter-spacing:.04em;text-transform:uppercase;margin-bottom:5px">Last Name</label><input type="text" name="lname" placeholder="Smith" required style="width:100%;background:rgba(246,241,233,.07);border:1px solid rgba(246,241,233,.15);color:var(--cream);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:.92rem;outline:none"></div>
@@ -184,11 +186,11 @@
 <footer class="footer"><div class="wrap"><div class="footer-in">
   <div class="flogo">North Texas <span>Home Solutions</span></div>
   <p class="fcopy">© 2025 North Texas Home Solutions · Serving Dallas-Fort Worth, TX · All rights reserved.</p>
-  <div class="flinks"><a href="/">Home</a><a href="/#faq">FAQ</a><a href="/#get-offer">Get Offer</a></div>
+  <div class="flinks"><a href="/">Home</a><a href="/#faq">FAQ</a><a href="/#get-offer">Get Offer</a><a href="/privacy.html">Privacy</a></div>
 </div></div></footer>
 <script>
 function toggleFaq(btn){const a=btn.nextElementSibling,open=btn.getAttribute('aria-expanded')==='true';document.querySelectorAll('.faq-q').forEach(b=>{b.setAttribute('aria-expanded','false');b.nextElementSibling.classList.remove('open')});if(!open){btn.setAttribute('aria-expanded','true');a.classList.add('open')}}
-function handleSubmit(e){e.preventDefault();const form=document.getElementById('lead-form'),success=document.getElementById('form-success');let valid=true;form.querySelectorAll('[required]').forEach(f=>{if(!f.value.trim()){valid=false;f.style.borderColor='#a63d2f'}else{f.style.borderColor=''}});if(!valid)return;form.style.display='none';success.style.display='block';}
+async function submitLeadForm(e){e.preventDefault();var form=e.target;var btn=form.querySelector('button[type="submit"]');if(!form.checkValidity()){form.reportValidity();return false;}var origBtn=btn?btn.textContent:'';if(btn){btn.disabled=true;btn.textContent='Sending...';}try{var data=new FormData(form);var res=await fetch('/',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams(data).toString()});if(!res.ok)throw new Error('submit failed');form.style.display='none';document.getElementById('form-success').style.display='block';window.scrollTo({top:0,behavior:'smooth'});}catch(err){if(btn){btn.disabled=false;btn.textContent=origBtn;}alert('Something went wrong sending your request. Please call or text +1 (972) 665-6599 and we will help you right away.');}return false;}
 const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target)}})},{threshold:.1,rootMargin:'0px 0px -36px 0px'});
 document.querySelectorAll('.rv').forEach(el=>obs.observe(el));
 document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}})});
