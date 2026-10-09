@@ -10,7 +10,6 @@
 }
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:auto;background:var(--white)}
-html{overflow-x:clip}
 body{font-family:var(--fb);background:var(--white);color:var(--text);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 a{color:inherit;text-decoration:none}
 img{display:block;max-width:100%}
@@ -72,7 +71,7 @@ img{display:block;max-width:100%}
 .form-sub{font-size:.82rem;color:var(--text2);line-height:1.6;margin-bottom:24px}
 .fg{margin-bottom:11px}
 .fg label{display:block;font-size:.65rem;font-weight:600;letter-spacing:.07em;text-transform:uppercase;color:var(--text3);margin-bottom:5px}
-.fg input,.fg select{width:100%;background:var(--white);border:1px solid var(--border);color:var(--text);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:16px;outline:none;transition:border-color .2s;-webkit-appearance:none}
+.fg input,.fg select{width:100%;background:var(--white);border:1px solid var(--border);color:var(--text);padding:11px 14px;border-radius:var(--r);font-family:var(--fb);font-size:.88rem;outline:none;transition:border-color .2s;-webkit-appearance:none}
 .fg input::placeholder{color:var(--text3)}
 .fg input:focus,.fg select:focus{border-color:var(--navy)}
 .fg-2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -217,3 +216,39 @@ img{display:block;max-width:100%}
   .tm-grid{grid-template-columns:1fr}
 }
   
+/* Batch 2026-10-09: comparison additions, offer calc, sticky text bar */
+.compare-note{background:var(--bg-alt);border:1px solid var(--border);border-radius:12px;padding:20px 24px;margin:28px 0 0}
+.compare-note p{margin:0;font-size:.9rem;color:var(--text2);line-height:1.7}
+.compare-note strong{color:var(--text)}
+.math-box{background:var(--white);border:1px solid var(--border);border-radius:16px;padding:32px;margin:24px 0 0;box-shadow:0 12px 32px rgba(26,26,46,.06)}
+.math-box h3{font-family:var(--fh);font-size:1.1rem;margin-bottom:20px;letter-spacing:-.01em}
+.math-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.math-col{background:var(--bg-alt);border-radius:12px;padding:22px}
+.math-col.us{background:var(--navy)}
+.math-head{font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:14px;color:var(--text2)}
+.math-col.us .math-head{color:#fff}
+.math-col ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+.math-col li{font-size:.88rem;color:var(--text2)}
+.math-col.us li{color:rgba(255,255,255,.85)}
+.math-net{font-weight:700!important;color:var(--navy)!important;font-size:.95rem!important;border-top:1px solid var(--border);padding-top:10px;margin-top:4px}
+.math-col.us .math-net{color:#fff!important;border-color:rgba(255,255,255,.2)}
+.math-fine{font-size:.78rem;color:var(--text2);margin:16px 0 0;text-align:center}
+.compare-cta{text-align:center;margin-top:32px}
+.compare-cta .hero-or-call{margin-top:12px}
+.calc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:36px}
+.calc-card{background:var(--white);border:1px solid var(--border);border-radius:14px;padding:28px}
+.calc-num{width:38px;height:38px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.calc-card h3{font-family:var(--fh);font-size:1rem;margin-bottom:10px;letter-spacing:-.01em}
+.calc-card p{font-size:.87rem;color:var(--text2);line-height:1.7;margin:0}
+.form-note{font-size:.8rem;color:var(--text2);text-align:center;margin:10px 0 0}
+.sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:999;background:rgba(255,255,255,.97);border-top:1px solid var(--border);padding:10px 16px;backdrop-filter:blur(8px)}
+.sticky-cta a{display:block;text-align:center;padding:14px 10px;border-radius:10px;font-weight:700;font-size:.92rem;text-decoration:none;background:var(--navy);color:#fff;max-width:560px;margin:0 auto}
+@media(max-width:768px){
+  .sticky-cta{display:block}
+  body{padding-bottom:70px}
+  .math-grid{grid-template-columns:1fr}
+  .calc-grid{grid-template-columns:1fr}
+  .compare-wrap{grid-template-columns:1fr 1fr;gap:10px}
+  .cmp-row{padding:10px 12px;font-size:.78rem}
+  .compare-head{padding:14px 12px;font-size:.8rem}
+}
