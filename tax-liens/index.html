@@ -211,19 +211,70 @@ document.addEventListener('DOMContentLoaded',function(){
   var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}})},{threshold:.12});
   document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
 });
-var GOOGLE_PLACES_KEY="";
-(function(){
-  var addr=document.querySelector('input[name="address"]');
-  if(!addr||!GOOGLE_PLACES_KEY)return;
-  window.nthsInitPlaces=function(){
-    try{
-      var ac=new google.maps.places.Autocomplete(addr,{types:['address'],componentRestrictions:{country:'us'},fields:['formatted_address']});
-      ac.addListener('place_changed',function(){var p=ac.getPlace();if(p&&p.formatted_address)addr.value=p.formatted_address;});
-    }catch(e){}
-  };
-  var s=document.createElement('script');
-  s.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(GOOGLE_PLACES_KEY)+'&libraries=places&callback=nthsInitPlaces';
-  s.async=true;s.defer=true;document.head.appendChild(s);
+// Address autocomplete via Netlify Edge Function proxy (no API key in client code)
+(function initAddressAutocomplete(){
+  function attach(input){
+    if(!input||input.dataset.placesAttached)return;
+    input.dataset.placesAttached="1";
+    var list=null, timer=null, items=[], activeIdx=-1;
+    function closeList(){ if(list){list.remove();list=null;} activeIdx=-1; items=[]; }
+    function showList(suggestions){
+      closeList();
+      if(!suggestions.length)return;
+      list=document.createElement('div');
+      list.className='nths-places-list';
+      list.style.cssText='position:absolute;z-index:9999;background:#fff;border:1px solid #d0d7e3;border-radius:8px;box-shadow:0 8px 24px rgba(10,22,40,.15);max-height:240px;overflow-y:auto;margin-top:4px;left:0;right:0;';
+      suggestions.forEach(function(s,i){
+        var d=document.createElement('div');
+        d.textContent=s.text;
+        d.style.cssText='padding:10px 14px;cursor:pointer;font-size:.9rem;color:#1a2b45;border-bottom:1px solid #eef1f5;';
+        d.addEventListener('mouseenter',function(){ setActive(i); });
+        d.addEventListener('mousedown',function(e){ e.preventDefault(); selectItem(i); });
+        list.appendChild(d);
+      });
+      var parent=input.parentElement;
+      if(parent){ if(getComputedStyle(parent).position==='static')parent.style.position='relative'; parent.appendChild(list); }
+      items=suggestions;
+    }
+    function setActive(i){
+      activeIdx=i;
+      if(!list)return;
+      Array.prototype.forEach.call(list.children,function(c,idx){
+        c.style.background=idx===i?'#eef2f8':'';
+      });
+    }
+    function selectItem(i){
+      var s=items[i];
+      if(!s)return;
+      fetch('/api/place-details?placeId='+encodeURIComponent(s.placeId))
+        .then(function(r){return r.json();})
+        .then(function(d){ if(d.formattedAddress)input.value=d.formattedAddress; else input.value=s.text; })
+        .catch(function(){ input.value=s.text; });
+      closeList();
+    }
+    input.addEventListener('input',function(){
+      var q=input.value.trim();
+      clearTimeout(timer);
+      if(q.length<3){ closeList(); return; }
+      timer=setTimeout(function(){
+        fetch('/api/places-autocomplete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({input:q})})
+          .then(function(r){return r.json();})
+          .then(function(d){ showList(d.suggestions||[]); })
+          .catch(function(){ closeList(); });
+      },250);
+    });
+    input.addEventListener('keydown',function(e){
+      if(!list||!items.length)return;
+      if(e.key==='ArrowDown'){ e.preventDefault(); setActive(Math.min(activeIdx+1,items.length-1)); }
+      else if(e.key==='ArrowUp'){ e.preventDefault(); setActive(Math.max(activeIdx-1,0)); }
+      else if(e.key==='Enter'&&activeIdx>=0){ e.preventDefault(); selectItem(activeIdx); }
+      else if(e.key==='Escape'){ closeList(); }
+    });
+    document.addEventListener('click',function(e){
+      if(list&&!list.contains(e.target)&&e.target!==input)closeList();
+    });
+  }
+  document.querySelectorAll('input[name="address"]').forEach(attach);
 })();
 function toggleFaq(btn){
   var open=btn.getAttribute('aria-expanded')==='true';
@@ -310,24 +361,70 @@ function openLeadModal(){var m=document.getElementById('lead-modal');if(m){m.cla
 function closeLeadModal(){var m=document.getElementById('lead-modal');if(m){m.classList.remove('open');m.setAttribute('aria-hidden','true');document.body.style.overflow='';}}
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLeadModal();});
 function toggleOtherField(sel){var w=document.getElementById('m-other-wrap');if(w){w.style.display=sel.value==='Other'?'block':'none';}}
-// Google Places address autocomplete
-var GOOGLE_PLACES_KEY = "AIzaSyDzK7l0q2fWi5U8SR3GYdFFIx59c3n5z7M";
+// Address autocomplete via Netlify Edge Function proxy (no API key in client code)
 (function initAddressAutocomplete(){
-  if(!GOOGLE_PLACES_KEY)return;
   function attach(input){
     if(!input||input.dataset.placesAttached)return;
     input.dataset.placesAttached="1";
-    try{
-      var ac=new google.maps.places.Autocomplete(input,{types:['address'],componentRestrictions:{country:'us'},fields:['formatted_address']});
-      ac.addListener('place_changed',function(){var p=ac.getPlace();if(p&&p.formatted_address)input.value=p.formatted_address;});
-    }catch(e){}
+    var list=null, timer=null, items=[], activeIdx=-1;
+    function closeList(){ if(list){list.remove();list=null;} activeIdx=-1; items=[]; }
+    function showList(suggestions){
+      closeList();
+      if(!suggestions.length)return;
+      list=document.createElement('div');
+      list.className='nths-places-list';
+      list.style.cssText='position:absolute;z-index:9999;background:#fff;border:1px solid #d0d7e3;border-radius:8px;box-shadow:0 8px 24px rgba(10,22,40,.15);max-height:240px;overflow-y:auto;margin-top:4px;left:0;right:0;';
+      suggestions.forEach(function(s,i){
+        var d=document.createElement('div');
+        d.textContent=s.text;
+        d.style.cssText='padding:10px 14px;cursor:pointer;font-size:.9rem;color:#1a2b45;border-bottom:1px solid #eef1f5;';
+        d.addEventListener('mouseenter',function(){ setActive(i); });
+        d.addEventListener('mousedown',function(e){ e.preventDefault(); selectItem(i); });
+        list.appendChild(d);
+      });
+      var parent=input.parentElement;
+      if(parent){ if(getComputedStyle(parent).position==='static')parent.style.position='relative'; parent.appendChild(list); }
+      items=suggestions;
+    }
+    function setActive(i){
+      activeIdx=i;
+      if(!list)return;
+      Array.prototype.forEach.call(list.children,function(c,idx){
+        c.style.background=idx===i?'#eef2f8':'';
+      });
+    }
+    function selectItem(i){
+      var s=items[i];
+      if(!s)return;
+      fetch('/api/place-details?placeId='+encodeURIComponent(s.placeId))
+        .then(function(r){return r.json();})
+        .then(function(d){ if(d.formattedAddress)input.value=d.formattedAddress; else input.value=s.text; })
+        .catch(function(){ input.value=s.text; });
+      closeList();
+    }
+    input.addEventListener('input',function(){
+      var q=input.value.trim();
+      clearTimeout(timer);
+      if(q.length<3){ closeList(); return; }
+      timer=setTimeout(function(){
+        fetch('/api/places-autocomplete',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({input:q})})
+          .then(function(r){return r.json();})
+          .then(function(d){ showList(d.suggestions||[]); })
+          .catch(function(){ closeList(); });
+      },250);
+    });
+    input.addEventListener('keydown',function(e){
+      if(!list||!items.length)return;
+      if(e.key==='ArrowDown'){ e.preventDefault(); setActive(Math.min(activeIdx+1,items.length-1)); }
+      else if(e.key==='ArrowUp'){ e.preventDefault(); setActive(Math.max(activeIdx-1,0)); }
+      else if(e.key==='Enter'&&activeIdx>=0){ e.preventDefault(); selectItem(activeIdx); }
+      else if(e.key==='Escape'){ closeList(); }
+    });
+    document.addEventListener('click',function(e){
+      if(list&&!list.contains(e.target)&&e.target!==input)closeList();
+    });
   }
-  window.nthsInitPlaces=function(){
-    document.querySelectorAll('input[name="address"]').forEach(attach);
-  };
-  var s=document.createElement('script');
-  s.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(GOOGLE_PLACES_KEY)+'&libraries=places&callback=nthsInitPlaces';
-  s.async=true;s.defer=true;document.head.appendChild(s);
+  document.querySelectorAll('input[name="address"]').forEach(attach);
 })();
 
 </script>
