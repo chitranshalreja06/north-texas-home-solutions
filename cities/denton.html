@@ -51,7 +51,7 @@
 {"@type":"Question","name":"I'm a tired landlord near UNT and my rental is trashed. Will you still buy it?","acceptedAnswer":{"@type":"Answer","text":"Absolutely. Tenant damage, deferred maintenance, leases you don't want to deal with, we buy Denton rentals as-is, tenants and all if needed. You don't have to clean or evict anyone first."}}]}
 </script>
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"RealEstateAgent","name":"North Texas Home Solutions","url":"https://northtexashomesolutions.com/","telephone":"+19726656599","areaServed":{"@type":"City","name":"Denton","address":{"@type":"PostalAddress","addressLocality":"Denton","addressRegion":"TX","addressCountry":"US"}},"priceRange":"$$"}
+{"@context":"https://schema.org","@type":"RealEstateAgent","name":"North Texas Home Solutions","url":"https://northtexashomesolutions.com/","telephone":"+18176011652","areaServed":{"@type":"City","name":"Denton","address":{"@type":"PostalAddress","addressLocality":"Denton","addressRegion":"TX","addressCountry":"US"}},"priceRange":"$$"}
 </script>
 </head>
 <body>
@@ -63,9 +63,18 @@
 <a href="/#areas">Areas</a>
 <a href="/blog/">Blog</a>
 </div>
-<a class="nav-phone" href="tel:+19726656599">+1 (972) 665-6599</a>
-<a href="#get-offer" class="btn-nav">Get Cash Offer</a>
+<a class="nav-phone" href="tel:+18176011652">+1 (817) 601-1652</a>
+<a href="#get-offer" class="btn-nav">Get Cash Offer</a><button class="ham" id="ham-btn" aria-label="Open menu"><span></span><span></span><span></span></button>
 </div></nav>
+<div class="mob-menu" id="mob-menu">
+<a href="/#how-it-works">How It Works</a>
+<a href="/#situations">Situations We Help With</a>
+<a href="/#areas">Areas We Serve</a>
+<a href="/blog/">Blog</a>
+<a href="/#faq">FAQ</a>
+<a href="tel:+18176011652">Call +1 (817) 601-1652</a>
+<a href="#" onclick="openLeadModal();return false;">Get My Fair Cash Offer</a>
+</div>
 <!-- HERO -->
 <section class="hero" id="get-offer">
   <div class="wrap hero-l">
@@ -79,8 +88,8 @@
       <div class="hero-check"><div class="hero-check-mark"><svg viewBox="0 0 10 10" fill="none"><path d="M2 5.5l2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>Buy as-is, no repairs, no cleaning, no showings</div>
     </div>
     <div class="hero-cta-row">
-      <a href="#get-offer" class="btn-gold" onclick="document.getElementById('fn').focus();return false;">Get My Free Cash Offer</a>
-      <div class="hero-or-call">or call <a href="tel:+19726656599">+1 (972) 665-6599</a></div>
+      <a href="#get-offer" class="btn-gold" onclick="document.getElementById('fn').focus();return false;">Get My Fair Cash Offer</a>
+      <div class="hero-or-call">or call <a href="tel:+18176011652">+1 (817) 601-1652</a></div>
     </div>
   </div>
   <div class="hero-r">
@@ -97,7 +106,7 @@
           <div class="fg"><label for="ln">Last Name</label><input type="text" id="ln" name="lname" placeholder="Smith" autocomplete="family-name" required/></div>
         </div>
         <div class="fg"><label for="ph">Phone Number</label><input type="tel" id="ph" name="phone" placeholder="(214) 555-0000" autocomplete="tel" required/></div>
-        <div class="fg"><label for="addr">Property Address</label><input type="text" id="addr" name="address" placeholder="123 Main St, Denton TX" required/></div>
+        <div class="fg"><label for="addr">Property Address</label><input type="text" id="addr" name="address" placeholder="123 Main St, Denton TX" required/ autocomplete="street-address"></div>
         <div class="fg">
           <label for="sit">Your Situation</label>
           <select id="sit" name="situation" required>
@@ -113,7 +122,7 @@
             <option>Other</option>
           </select>
         </div>
-        <button type="submit" class="form-btn">Get My Free Cash Offer</button>
+        <button type="submit" class="form-btn">Get My Fair Cash Offer</button>
       </form>
       <div id="form-success">
         <div class="success-ico"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
@@ -188,11 +197,11 @@
     <div class="local-card">
       <h3>Sell your Denton house in 3 steps</h3>
       <ol class="steps">
-        <li><b>Tell us about the house.</b> Fill out the form or call +1 (972) 665-6599. Takes about a minute.</li>
+        <li><b>Tell us about the house.</b> Fill out the form or call +1 (817) 601-1652. Takes about a minute.</li>
         <li><b>Get your cash offer.</b> We look at the property and bring you a fair, no-pressure offer, usually within 24 hours.</li>
         <li><b>Close on your schedule.</b> As fast as 7 days, or take your time. You pick the date. We cover all closing costs.</li>
       </ol>
-      <a class="btn-gold" href="#get-offer">Get My Free Cash Offer</a>
+      <a class="btn-gold" href="#get-offer">Get My Fair Cash Offer</a>
     </div>
   </div>
 </section>
@@ -230,11 +239,11 @@
 <section class="sec alt">
   <div class="wrap sec-center">
     <span class="eyebrow rv">Ready When You Are</span>
-    <h2 class="sec-h2 rv">Get Your Free Cash Offer for Your <em>Denton</em> Home</h2>
+    <h2 class="sec-h2 rv">Get Your Fair Cash Offer for Your <em>Denton</em> Home</h2>
     <p class="sec-lead rv">No repairs. No fees. No obligation. Just a fair cash offer and a closing date you choose.</p>
     <div class="final-btns">
-      <a href="#get-offer" class="btn-gold">Get My Free Cash Offer</a>
-      <a href="tel:+19726656599" class="btn-outline">Call +1 (972) 665-6599</a>
+      <a href="#get-offer" class="btn-gold">Get My Fair Cash Offer</a>
+      <a href="tel:+18176011652" class="btn-outline">Call +1 (817) 601-1652</a>
     </div>
   </div>
 </section>
@@ -280,12 +289,97 @@ async function submitLeadForm(e){
     document.getElementById('form-success').style.display='block';
     window.scrollTo({top:0,behavior:'smooth'});
   }catch(err){
-    btn.disabled=false;btn.textContent='Get My Free Cash Offer';
-    alert('Something went wrong sending your request. Please call or text +1 (972) 665-6599 and we will help you right away.');
+    btn.disabled=false;btn.textContent='Get My Fair Cash Offer';
+    alert('Something went wrong sending your request. Please call or text +1 (817) 601-1652 and we will help you right away.');
   }
   return false;
 }
 </script>
-<div class="sticky-cta"><a href="#get-offer">Text Us Now</a></div>
+<div class="sticky-cta"><a href="#" onclick="openLeadModal();return false;">Get Fair Cash Offer</a></div>
+<!-- LEAD MODAL -->
+<div class="lead-modal" id="lead-modal" aria-hidden="true">
+  <div class="lead-modal-backdrop" onclick="closeLeadModal()"></div>
+  <div class="lead-modal-box">
+    <button class="lead-modal-close" onclick="closeLeadModal()" aria-label="Close">&times;</button>
+    <span class="form-eyebrow">Free - No Obligation</span>
+    <h2 class="form-title">Get Your Cash Offer</h2>
+    <p class="form-sub">Fill this out and we will call you within a few hours, usually same day. One conversation, zero pressure.</p>
+    <form id="lead-form-modal" name="lead-form" data-netlify="true" netlify-honeypot="bot-field" onsubmit="submitLeadForm(event,'lead-form-modal')" novalidate>
+      <input type="hidden" name="form-name" value="lead-form">
+      <div style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden" aria-hidden="true"><label>Leave this field empty<input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></div>
+      <div class="fg-2">
+        <div class="fg"><label for="m-fn">First Name</label><input type="text" id="m-fn" name="fname" placeholder="John" autocomplete="given-name" required></div>
+        <div class="fg"><label for="m-ln">Last Name</label><input type="text" id="m-ln" name="lname" placeholder="Smith" autocomplete="family-name" required></div>
+      </div>
+      <div class="fg"><label for="m-ph">Phone Number</label><input type="tel" id="m-ph" name="phone" placeholder="(214) 555-0000" autocomplete="tel" required></div>
+      <div class="fg"><label for="m-addr">Property Address</label><input type="text" id="m-addr" name="address" placeholder="Start typing your address..." autocomplete="off" required></div>
+      <div class="fg">
+        <label for="m-sit">Your Situation</label>
+        <select id="m-sit" name="situation" required onchange="toggleOtherField(this)">
+          <option value="" disabled selected>What's going on?</option>
+          <option>Facing Foreclosure</option>
+          <option>Behind on Property Taxes</option>
+          <option>Inherited Property / Probate</option>
+          <option>Going Through Divorce</option>
+          <option>Too Many Repairs Needed</option>
+          <option>Tired Landlord</option>
+          <option>Relocating Fast</option>
+          <option>Vacant Property</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="fg" id="m-other-wrap" style="display:none">
+        <label for="m-other">Tell us a bit more</label>
+        <input type="text" id="m-other" name="situation_details" placeholder="Briefly describe your situation...">
+      </div>
+      <div class="fg-consent">
+        <label class="consent-label">
+          <input type="checkbox" id="m-consent" name="sms_consent" value="yes" required>
+          <span>I agree to receive text messages from North Texas Home Solutions about my inquiry. Message and data rates may apply.</span>
+        </label>
+      </div>
+      <button type="submit" class="form-btn">Get My Fair Cash Offer</button>
+    </form>
+    <div id="form-success-modal" style="display:none">
+      <div class="success-ico"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+      <h3 class="success-h">We Got It.</h3>
+      <p class="success-p">We will reach out shortly. Keep your phone nearby.</p>
+    </div>
+    <div class="form-note">No spam, no robocalls, no pressure. Just one honest conversation.</div>
+  </div>
+</div>
+
+<script>
+// Lead modal controls
+function openLeadModal(){var m=document.getElementById('lead-modal');if(m){m.classList.add('open');m.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';}}
+function closeLeadModal(){var m=document.getElementById('lead-modal');if(m){m.classList.remove('open');m.setAttribute('aria-hidden','true');document.body.style.overflow='';}}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLeadModal();});
+function toggleOtherField(sel){var w=document.getElementById('m-other-wrap');if(w){w.style.display=sel.value==='Other'?'block':'none';}}
+// Google Places address autocomplete
+var GOOGLE_PLACES_KEY = "AIzaSyDzK7l0q2fWi5U8SR3GYdFFIx59c3n5z7M";
+(function initAddressAutocomplete(){
+  if(!GOOGLE_PLACES_KEY)return;
+  function attach(input){
+    if(!input||input.dataset.placesAttached)return;
+    input.dataset.placesAttached="1";
+    try{
+      var ac=new google.maps.places.Autocomplete(input,{types:['address'],componentRestrictions:{country:'us'},fields:['formatted_address']});
+      ac.addListener('place_changed',function(){var p=ac.getPlace();if(p&&p.formatted_address)input.value=p.formatted_address;});
+    }catch(e){}
+  }
+  window.nthsInitPlaces=function(){
+    document.querySelectorAll('input[name="address"]').forEach(attach);
+  };
+  var s=document.createElement('script');
+  s.src='https://maps.googleapis.com/maps/api/js?key='+encodeURIComponent(GOOGLE_PLACES_KEY)+'&libraries=places&callback=nthsInitPlaces';
+  s.async=true;s.defer=true;document.head.appendChild(s);
+})();
+
+</script>
+<script>
+(function(){var h=document.getElementById('ham-btn'),m=document.getElementById('mob-menu');
+if(h&&m){h.addEventListener('click',function(){var o=m.classList.toggle('open');h.setAttribute('aria-expanded',o);});
+m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){m.classList.remove('open');});});}})();
+</script>
 </body>
 </html>

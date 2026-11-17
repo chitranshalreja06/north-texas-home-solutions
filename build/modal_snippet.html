@@ -1,0 +1,52 @@
+<!-- LEAD MODAL -->
+<div class="lead-modal" id="lead-modal" aria-hidden="true">
+  <div class="lead-modal-backdrop" onclick="closeLeadModal()"></div>
+  <div class="lead-modal-box">
+    <button class="lead-modal-close" onclick="closeLeadModal()" aria-label="Close">&times;</button>
+    <span class="form-eyebrow">Free - No Obligation</span>
+    <h2 class="form-title">Get Your Cash Offer</h2>
+    <p class="form-sub">Fill this out and we will call you within a few hours, usually same day. One conversation, zero pressure.</p>
+    <form id="lead-form-modal" name="lead-form" data-netlify="true" netlify-honeypot="bot-field" onsubmit="submitLeadForm(event,'lead-form-modal')" novalidate>
+      <input type="hidden" name="form-name" value="lead-form">
+      <div style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden" aria-hidden="true"><label>Leave this field empty<input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></div>
+      <div class="fg-2">
+        <div class="fg"><label for="m-fn">First Name</label><input type="text" id="m-fn" name="fname" placeholder="John" autocomplete="given-name" required></div>
+        <div class="fg"><label for="m-ln">Last Name</label><input type="text" id="m-ln" name="lname" placeholder="Smith" autocomplete="family-name" required></div>
+      </div>
+      <div class="fg"><label for="m-ph">Phone Number</label><input type="tel" id="m-ph" name="phone" placeholder="(214) 555-0000" autocomplete="tel" required></div>
+      <div class="fg"><label for="m-addr">Property Address</label><input type="text" id="m-addr" name="address" placeholder="Start typing your address..." autocomplete="off" required></div>
+      <div class="fg">
+        <label for="m-sit">Your Situation</label>
+        <select id="m-sit" name="situation" required onchange="toggleOtherField(this)">
+          <option value="" disabled selected>What's going on?</option>
+          <option>Facing Foreclosure</option>
+          <option>Behind on Property Taxes</option>
+          <option>Inherited Property / Probate</option>
+          <option>Going Through Divorce</option>
+          <option>Too Many Repairs Needed</option>
+          <option>Tired Landlord</option>
+          <option>Relocating Fast</option>
+          <option>Vacant Property</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="fg" id="m-other-wrap" style="display:none">
+        <label for="m-other">Tell us a bit more</label>
+        <input type="text" id="m-other" name="situation_details" placeholder="Briefly describe your situation...">
+      </div>
+      <div class="fg-consent">
+        <label class="consent-label">
+          <input type="checkbox" id="m-consent" name="sms_consent" value="yes">
+          <span>I agree to receive text messages from North Texas Home Solutions about my inquiry. Message and data rates may apply.</span>
+        </label>
+      </div>
+      <button type="submit" class="form-btn">Get My Fair Cash Offer</button>
+    </form>
+    <div id="form-success-modal" style="display:none">
+      <div class="success-ico"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.75" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+      <h3 class="success-h">We Got It.</h3>
+      <p class="success-p">We will reach out shortly. Keep your phone nearby.</p>
+    </div>
+    <div class="form-note">No spam, no robocalls, no pressure. Just one honest conversation.</div>
+  </div>
+</div>
